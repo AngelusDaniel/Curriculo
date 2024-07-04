@@ -142,7 +142,9 @@ span{
     border-radius: 50%;
     box-shadow: 0 0 025px var(--main-color);
     cursor: pointer;
-    min-width: 200px;
+    width: 390px;
+    height: 390px;
+    overflow: hidden;
 }
 
 .home-content p {
@@ -321,16 +323,19 @@ span{
 
 .about-box{
 
-    background-color: var(--second-bg-color);
+    background-color: var(--bg-color);
     height: 100%;
     border-radius: 3rem;
     border: 5px solid var(--main-color);
     cursor: pointer;
     transition: 0.4s ease-in-out;
+    box-shadow: 0 0 10px var(--main-color);
     
-    
+}
 
-
+.about-box:hover{
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--second-bg-color); 
 }
 
 .about-box:hover{
