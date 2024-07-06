@@ -830,3 +830,20 @@ margin-bottom: 5rem;
 
 }
 
+@media(max-width:556px) {
+
+    .popup-1 .popcontent-1{
+        width: 460px;
+        height: 268px;
+    }
+}
+
+
+@media(max-width:470px) {
+
+    .popup-1 .popcontent-1{
+        width: 400px;
+        height: 233px;
+    }
+}
+
