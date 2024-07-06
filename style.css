@@ -142,8 +142,7 @@ span{
     border-radius: 50%;
     box-shadow: 0 0 025px var(--main-color);
     cursor: pointer;
-    width: 390px;
-    height: 390px;
+    min-width: 390px;
     overflow: hidden;
 }
 
@@ -792,7 +791,7 @@ margin-bottom: 5rem;
 
     .home{
         flex-direction: column-reverse;
-        margin: 5rem 4rem;
+        margin: 1rem 4rem;
     }
 
     .home-content h3{
@@ -810,7 +809,8 @@ margin-bottom: 5rem;
     }
 
     .home-img img{
-        width: 56vw;
+        width: 0px;
+        height: 0px;
     }
 
     .experience h2{
