@@ -166,12 +166,12 @@ span{
     border-radius: 50%;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
-    transition: 0.5s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .social-icons a:hover{
     color: var(--text-color);
-    transform: scale(1.1)translateY(-3px);
+    transform: scale(1.1)translateY(-9px);
     box-shadow: 0 0 20px var(--main-color);
     background-color: var(--main-color);
 }
