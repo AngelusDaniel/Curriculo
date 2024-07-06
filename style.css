@@ -792,6 +792,7 @@ margin-bottom: 5rem;
     .home{
         flex-direction: column-reverse;
         margin: 1rem 4rem;
+        gap: 5px;
     }
 
     .home-content h3{
