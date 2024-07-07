@@ -713,6 +713,31 @@ margin-bottom: 5rem;
     color: white;
 }
 
+.thanks{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 17%;
+
+}
+.thanks h1{
+    font-size: 50px;
+}
+
+.thanks h2{
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+.btn-back{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
 @media(max-width:1285px){
     html{
         font-size: 55%;
