@@ -54,34 +54,3 @@ video.addEventListener('timeupdate', function(){
     }
 })
 
-class FormSubmit {
-    constructor(settings) {
-        this.settings = settings
-        this.form = document.querySelector(settings.form);
-        this.formButton = document.querySelector(settings.button)
-
-        if (this.form) {
-            this.url = this.form.getAttribute("action")
-        }
-    }
-
-    displaySucces() {
-        this.form.innerHTML = this.settings.success;
-    }
-
-    displaySucces() {
-        this.form.innerHTML = this.settings.error;
-    }
-
-    init() {
-        if (this.form) this.formButton.addEventListener ("click", () => this.displaySuccess())
-            return this;
-    }
-}
-
-const FormSubmit = new FormSubmit({
-    form: "[data-form]",
-    button: "[data-button]",
-    success: alert("Mensagem Enviada!"),
-    error: alert("Não foi possível enviar sua mensagem")
-});
